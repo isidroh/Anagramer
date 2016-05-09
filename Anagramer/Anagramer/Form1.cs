@@ -46,7 +46,7 @@ namespace Anagramer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DisplayTextList(anagramFinder.GetMultiWordAnagramsOfWord(textBoxWordToGetAnagramsOf.Text.Replace(" ", ""), 3));
+            DisplayTextList(anagramFinder.GetMultiWordAnagramsOfWord(textBoxWordToGetAnagramsOf.Text.Replace(" ", ""), Int32.Parse(textBoxMinWordLength.Text)));
         }
     }
 }

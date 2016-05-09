@@ -7,3 +7,6 @@ c:\users\isidroh\documents\visual studio 2013\Projects\Anagramer\Anagramer\bin\D
 c:\users\isidroh\documents\visual studio 2013\Projects\Anagramer\Anagramer\bin\Debug\Anagramer.pdb
 c:\users\isidroh\documents\visual studio 2013\Projects\Anagramer\Anagramer\obj\Debug\Anagramer.exe
 c:\users\isidroh\documents\visual studio 2013\Projects\Anagramer\Anagramer\obj\Debug\Anagramer.pdb
+C:\Users\isidroh\Documents\GitHub\Anagramer\Anagramer\Anagramer\bin\Debug\Anagramer.exe.config
+C:\Users\isidroh\Documents\GitHub\Anagramer\Anagramer\Anagramer\obj\Debug\Anagramer.exe
+C:\Users\isidroh\Documents\GitHub\Anagramer\Anagramer\Anagramer\obj\Debug\Anagramer.pdb
