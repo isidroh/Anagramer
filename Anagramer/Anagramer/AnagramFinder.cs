@@ -14,8 +14,8 @@ namespace Anagramer
         public AnagramFinder()
         {
             anagramsMap = new Dictionary<string, AnagramWords>();
-            string filePath = "C:\\Users\\isidroh\\Documents\\visual studio 2013\\Projects\\Anagramer\\google-10000-english-usa.txt";
-            //string filePath = "C:\\Users\\isidroh\\Documents\\visual studio 2013\\Projects\\Anagramer\\EnglishDictionary.txt";
+            string filePath = "..\\..\\..\\google-10000-english-usa.txt";
+            //string filePath = "..\\..\\..\\EnglishDictionary.txt";
             LoadDictionary(filePath);
             GenerateAnagramsMap();
         }
@@ -166,7 +166,8 @@ namespace Anagramer
             StreamReader file = new StreamReader(filePath);
             while ((line = file.ReadLine()) != null)
             {
-                this.wordDictionary.Add(line.ToLower());
+                if(!this.wordDictionary.Contains(line.ToLower()))
+                    this.wordDictionary.Add(line.ToLower());
             }
 
             file.Close();
